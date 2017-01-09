@@ -67,5 +67,5 @@ export PATH=/usr/local/sbin:$PATH
 export MAVEN_HOME=/usr/local/java/apache-maven-3.0.5
 export JAVA_HOME=/usr/lib/jdk1.7.0_21
 
-export PATH=$PATH:$HOME/pyretic:$HOME/pox
-export PYTHONPATH=$HOME/pyretic:$HOME/mininet:$HOME/pox
+#export PATH=$PATH:$HOME/pyretic:$HOME/pox
+#export PYTHONPATH=$HOME/pyretic:$HOME/mininet:$HOME/pox
