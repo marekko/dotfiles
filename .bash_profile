@@ -62,6 +62,7 @@ export PATH=$HOME/bin:$PATH
 export PATH=/usr/bin:$PATH
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
+export PATH=$PATH:/opt/gradle/gradle-4.1/bin
 
 # todo: add download section
 export MAVEN_HOME=/usr/local/java/apache-maven-3.0.5
