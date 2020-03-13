@@ -1,8 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+autoload -Uz compinit
+compinit
+
 # Path to your oh-my-zsh installation.
   export ZSH="/home/marekko/.oh-my-zsh"
+  export DOTS="/home/marekko/dotfiles"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -65,6 +69,9 @@ ZSH_THEME="robbyrussell"
 plugins=(git docker zsh-autosuggestions) 
 
 source $ZSH/oh-my-zsh.sh
+source $DOTS/zsh_kubctl
+
+
 
 # User configuration
 
@@ -91,3 +98,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias k=kubectl
+complete -F __start_kubectl k
