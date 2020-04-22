@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-configuration files
+configuration files for ubuntuu
