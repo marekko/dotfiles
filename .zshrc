@@ -69,7 +69,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git docker zsh-autosuggestions) 
 
 source $ZSH/oh-my-zsh.sh
-source $DOTS/zsh_kubctl
+#source $DOTS/zsh_kubctl
 
 
 
@@ -98,5 +98,5 @@ source $DOTS/zsh_kubctl
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias k=kubectl
-complete -F __start_kubectl k
+#alias k=kubectl
+#complete -F __start_kubectl k
