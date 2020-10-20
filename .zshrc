@@ -104,5 +104,8 @@ alias k='microk8s kubectl'
 complete -F __start_kubectl k
 
 # Environmnet variables for go
-export GOPATH=$HOME/phd-software
+#export GOPATH=$HOME/phd-software
+
+#direnv
+eval "$(direnv hook zsh)"
 
