@@ -99,9 +99,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#alias kubectl='microk8s kubectl'
+alias kubectl='kubectl'
 #alias k='microk8s kubectl'
-complete -F __start_kubectl k
+#complete -F __start_kubectl k
+source <(kubectl completion zsh)
 
 # Environmnet variables for go
 #export GOPATH=$HOME/phd-software
