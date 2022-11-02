@@ -99,8 +99,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias kubectl='microk8s kubectl'
-alias k='microk8s kubectl'
+#alias kubectl='microk8s kubectl'
+#alias k='microk8s kubectl'
 complete -F __start_kubectl k
 
 # Environmnet variables for go
